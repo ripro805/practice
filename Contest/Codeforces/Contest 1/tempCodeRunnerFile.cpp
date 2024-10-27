@@ -9,10 +9,9 @@ int32_t main()
 {
     int a,b;
     cin>>a>>b;
-    if((abs(a-b)==1 or abs(a-b)==0) and (a!=0 and b!=0)){
+    if((a+1==b) or (b+1)==a){
         cout<<"YES"<<endl;
     }
-    
     else{
         cout<<"NO"<<endl;
     }
