@@ -10,8 +10,15 @@ int32_t main()
 {
     string s;
     getline(cin ,s);
+    for(int i=0;s[i]!='\0';i++){
+        if(s[i]=='\\'){
+            break;
+        }
+        cout<<s[i];
+    }
+    
     
 
-    cout<<s<<endl;
+    
     return 0;
 }
