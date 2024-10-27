@@ -1,0 +1,5 @@
+noon		 Palindrome
+radar		 Palindrome
+dad		 Palindrome
+rizvi		 Not Palindrome
+sir		 Not Palindrome

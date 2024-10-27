@@ -1,0 +1,8 @@
+tuple1 = (1, 2, 3)
+tuple2 = (4, 5, 6)
+addition_result = tuple(x + y for x, y in zip(tuple1, tuple2))
+subtraction_result = tuple(x - y for x, y in zip(tuple1, tuple2))
+multiplication_result = tuple(x * y for x, y in zip(tuple1, tuple2))
+print("Element-wise Addition Result:", addition_result)
+print("Element-wise Subtraction Result:", subtraction_result)
+print("Element-wise Multiplication Result:", multiplication_result)

@@ -1,0 +1,5 @@
+f=open("D:\\Apps & Software & Others\\Practice\\Python\\others\\12.file\\1.txt","r")
+data1=f.read()
+print(data1)
+print(type(data1)) #for particular we have to write f.read(01)
+f.close()
