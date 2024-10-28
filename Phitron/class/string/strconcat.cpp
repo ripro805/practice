@@ -11,7 +11,16 @@ int32_t main()
     faster;
     char a[20]="ri";
     char b[20]="pro";
-    strcat(a,b);
+    int len_a=strlen(a);
+    int len_b=strlen(b);
+    int length=len_a+len_b;
+
+    for(int i=len_a,j=0;i<length;i++,j++){
+        a[i]=b[j];
+    }
+    a[length]='\0';
+
+   // strcat(a,b);
     cout<<a <<" "<<b<<endl;
     return 0;
 }
