@@ -9,18 +9,19 @@ int32_t main()
 {
     faster;
     int n;
-    cin>>n;
+    cin >> n;
     string str;
-    cin>>str;
+    cin >> str;
 
-    int num=0;
-    int i=0;
-    while(i<n){
-        int digit=str[i]-'0';
-        num=num*10+digit;
+    int num = 0;
+    int i = 0;
+    while (i < n)
+    {
+        int digit = str[i] - '0';
+        num = num * 10 + digit;
         i++;
-
     }
-    cout<<num<<endl;
+    cout << num << endl;
     return 0;
 }
+ 
