@@ -10,15 +10,27 @@ void solve(int t_case)
 int32_t main()
 {
     faster;
-    long n;
-    cin>>n;
-    for(int i=2;i<=n;i++){
-        
-        for(int j=2;j*j<=n;j++){
-            if(i%j==0&&i%1==0 &&i%i==0){
-            cout<<i<<" ";
+   int n;
+   cin>>n;
+//    int m=sqrt(n);
+   
+   
+   for(int i=2;i<=n;i++){
+        int flag =1;
+        for(int j=2;j<=sqrt(i); j++){
+            if(i%j==0){
+                flag=0;
+                //cout<<i<<endl;10
+                break;
+            }
         }
-        }
-    }
+        if(flag){
+                cout<<i<<" ";
+            }
+   
+    
+   }
+   cout<<endl;
+   
     return 0;
 }
