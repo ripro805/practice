@@ -17,8 +17,8 @@ int32_t main()
         int k=i;
         int sum=0;
         while(k<0){
-            sum+=n%10;
-            n/10;
+            sum+=k%10;
+            k/10;
         }
         if(sum<=a &&sum>=b){
             final_sum+=i;
