@@ -15,8 +15,10 @@ int32_t main()
     int cnt=0;
     for(int i=0;i<=k;i++){
         for(int j=0;j<=k;j++){
-        for(int l=0;l<=k;l++){
-        if(i+j+l==s){
+        int l=s-i-j;
+        {
+
+        if(l>=0 && l<=k){
             cnt++;
         }
     }
