@@ -10,13 +10,12 @@ int32_t main()
    
    long long n;
    cin>>n;
-   int a[n];
-   for(int i=0;i<n;i++){
-    cin>>a[i];
-   }
+   int m;
+   cin>>m;
+   //digit sum oita sum output
    int sum=0;
    for(int i =0;i<=n;i++){
-     sum+=a[i];
+     sum+=m[i];
    }
    for(int i =0;i<=n;i++){
      cout<<sum<<endl;
