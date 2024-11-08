@@ -11,9 +11,14 @@ int32_t main()
     long long n, m, k;
     cin >> n >> m >> k;
     
-    // Fixing the min function to handle three arguments
-    long long maxKatryoshkas = min(min(n / 2, m), k);
     
-    cout << maxKatryoshkas << endl;
+    long long minimum = min(min(n, m), k);
+    long long newEyes=(n-minimum)/2;
+    long long newMouth=(m-minimum);
+    long long newBody=(k-minimum);
+
+    long long maxKatryoshkas=min(newEyes,newBody);
+    
+    cout << maxKatryoshkas+minimum << endl;
     return 0;
 }

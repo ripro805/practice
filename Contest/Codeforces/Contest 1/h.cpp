@@ -1,22 +1,25 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     long long n, k, a;
     cin >> n >> k >> a;
 
-    // Calculate the product
-    long long product = n * k * a;
+    long long product = (n * k) / a;
+    double q = (n * k) / a, test = product -q;
 
-    // Check for data type based on the value range
-    if (product <= 2147483647LL && product >= -2147483648LL) {
-        cout << "int" << endl;
-    } 
-    else if (product <= LLONG_MAX && product >= LLONG_MIN) {
-        cout << "long long" << endl;
-    } 
-    else {
+    if (test > 0)
+    {
         cout << "double" << endl;
+    }
+    else if (product <= 2147483647)
+    {
+        cout << "int" << endl;
+    }
+    else
+    {
+        cout << "long long" << endl;
     }
 
     return 0;
