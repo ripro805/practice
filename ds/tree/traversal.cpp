@@ -36,6 +36,18 @@ void Preorder(Node *root) {
   Preorder(root->left);
   Preorder(root->right);
 }
+int s = 0;
+void Greatertree(Node *root) {
+  if (root == nullptr) {
+    return;
+  }
+
+  Inorder(root->left);
+  //cout << root->data << " ";
+  s += root->data;
+  root->data=s;
+  Inorder(root->right);
+}
 void Inorder(Node *root) {
   if (root == nullptr) {
     return;
@@ -43,7 +55,8 @@ void Inorder(Node *root) {
 
   Inorder(root->left);
   cout << root->data << " ";
-
+  // s += root->data;
+  // root->data=s;
   Inorder(root->right);
 }
 void Postorder(Node *root) {
@@ -65,6 +78,8 @@ int main() {
   cout << endl;
   Postorder(root);
   cout << endl;
+  Greatertree(root);
+  Inorder(root);   
 
   return 0;
 }
