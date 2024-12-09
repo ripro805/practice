@@ -1,0 +1,19 @@
+/*
+omega is for best case
+theta is for average case
+big-O is for worst case
+
+
+
+let"s take a array is 1 2 3 4 5
+if we find 1 that will be the best case
+if we find 3 that will be the average case
+if we find 5 that will be the worst case
+
+
+rules of time complexity calculation
+1. Always take the worst case
+2. ignore the constant  [for n it will be big-O(n)
+                         for n-1 it will be big-O(n)
+                         for 2n it will be big-O(n)]
+*/

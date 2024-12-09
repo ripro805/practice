@@ -1,0 +1,106 @@
+problem 1:
+
+int i=0,sum = 0;
+    while(i<n)
+    {
+        int j=0;
+        while(j<n)
+        {
+            sum += j;
+            j+=2;
+        }
+        i++;
+    }  
+O(n*n)
+
+
+Problem 2:
+    for(int i=0;i<n;i+=10)
+    {
+        for(int j=n;j>=0;j--)
+        {
+            cout << "Hello" << endl;
+        }
+    }
+
+
+    for(int i=0;i<n;i++)
+    {
+        cout << "Hi" << endl;
+    }
+    
+ O(n*n)
+
+
+Problem 3:
+    for(int i=0;i<n;i++) o(n)
+    {
+        int j=0;
+        while(j*j<n)  o(sqrt(n))
+        {
+            i+j;
+            j++;
+        }
+    }
+O(N*sqrt(N))
+
+
+
+Problem 4:
+    for(int i=0;i<n;i++)
+    {
+        for(int j=n;j>=0;j--)
+        {
+            for(int k=1;k<=n;k++)
+            {
+                sum += i+j+k;
+            }
+        }
+    }
+
+
+    for(int i=0;i<n;i++)
+    {
+        for(int j=1;j<=n;j++)
+        {
+            sum += i+j;
+        }
+    }
+
+O(n*n*n)
+
+Problem 5:
+
+for(int i=0;i*i<n;i++)  O(sqrt(n))
+    {
+        sum += i;
+    }
+
+
+    for(int i=0;i<n;i++) O(logn)
+    {
+        sum += i;
+        i*=k;
+    }
+O(sqrt(N))
+
+Problem 6:
+    for(int i=0;i<n;i++)  o(n)
+    {
+        cin >> a[i];
+    }
+    sort(a,a+n);   o(nlogn)
+
+O(NlogN)
+
+Problem 7:
+    for(int i=0;i<n;i++) o(n)
+    {
+        sort(a,a+n); o(nlogn)
+    }
+as the sort is in ithe loop so it will be multiplied
+O(N*NlogN)
+
+
+
+

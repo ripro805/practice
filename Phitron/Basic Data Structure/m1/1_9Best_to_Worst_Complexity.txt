@@ -1,0 +1,13 @@
+
+
+for best to wrost let n =1000
+
+constant:     O(1)       = O(1)----->1
+linear:       O(n)       = O(1000)--->4
+logarithmic:  O(logn)    = O(10)----->2
+sqrt:         O(sqrt(n)) = O(32)----->3
+quadratic:    O(n*n)     = O(10^6)---->6
+linearithmic: O(nlogn)   = O(10^5)---->5
+
+constant>logarithmic>sqrt>linear>linearithmic>quadratic
+
