@@ -1,0 +1,4 @@
+h=logn
+
+insert 1 node complexity o(h)
+insert n node complexity o(nh)=o(nlogn)

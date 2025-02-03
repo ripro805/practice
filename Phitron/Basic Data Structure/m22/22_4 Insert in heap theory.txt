@@ -1,0 +1,2 @@
+1.a  node will be insert to the first null place
+2.check the heap is max heap or not ..if not swap untill it's being max heap

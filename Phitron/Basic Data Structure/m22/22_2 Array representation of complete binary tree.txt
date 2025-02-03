@@ -1,0 +1,3 @@
+leftchild=parenrindx*2+1
+rightchild=parenrindx*2+2
+parent_indx=(child_indx-1)/2

@@ -1,0 +1,2 @@
+1 alll values of left sub tree <node->val;
+2 alll values of right sub tree >node->val;

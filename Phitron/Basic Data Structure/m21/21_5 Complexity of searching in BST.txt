@@ -1,0 +1,7 @@
+when all level are filled then the complexity best case O(logn)
+for the worst case O(n)
+
+for the all binary tree O(h)
+h=height
+best ,h=logn
+worst,h=n

@@ -1,0 +1,5 @@
+for 1 node =o(h)
+for n node =O(nh)
+
+for best O(nlogn)
+for worst O(n^2)

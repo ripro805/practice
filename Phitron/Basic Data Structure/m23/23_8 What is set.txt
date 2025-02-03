@@ -1,0 +1,2 @@
+1 remove the duplicate using bst
+2 sorted value

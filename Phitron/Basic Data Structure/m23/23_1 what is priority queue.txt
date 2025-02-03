@@ -1,0 +1,4 @@
+maintain the priority and sort it depends on the priority or parent value
+
+
+nlogn

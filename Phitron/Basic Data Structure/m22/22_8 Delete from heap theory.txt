@@ -1,0 +1,2 @@
+1.last value replace with root 
+2.then swap for the max heap

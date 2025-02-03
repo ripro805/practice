@@ -1,0 +1,31 @@
+                         ***insertion***
+            at head=O(1)
+            at Tail=O(n) without tail tracking
+                    O(1) with tail tracking
+            at any position=O(n)
+
+
+                          ***Deletion***
+
+            at head=O(1)
+            at Tail=O(n) 
+            at any position=O(n)
+
+
+
+
+                             ***Printing***
+             forward=O(N)
+             backward=O(N) using recursion               
+
+
+
+
+                             ***input***
+            O(n)= with tail tracking
+            O(n*n)=without tail tracking
+
+
+
+                             ***sorting***
+                           

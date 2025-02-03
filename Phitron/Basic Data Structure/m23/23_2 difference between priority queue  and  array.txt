@@ -1,0 +1,1 @@
+when we found the max we have to sort priority queue a few time  but for the array we have to sort n time

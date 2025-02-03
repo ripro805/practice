@@ -1,0 +1,8 @@
+if find the connection between two nodes then adjacency matrix better:
+adjacency matrix=O(1)
+adjacency list =O(n)
+edge list=o(n)
+
+if find which are connected then adjacency list better:
+
+if we need the edge then edge list better
