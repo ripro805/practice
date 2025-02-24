@@ -1,0 +1,37 @@
+import sys
+
+def cansort(n,a,b_val):
+if n==0:
+  return true
+prev=min(a[0],b_val-a[0])
+
+for i in range (1,n):
+ curr=a[i]
+ op1=curr
+ op2=b_val-curr
+ valid_option=[]
+ if op1>=prev:
+   valid_option.append(op1)
+ if op2>=prev:  
+   valid_option.append(op2)
+
+ if not valid_option:
+    return false
+
+    prev=min(valid_option)
+
+ return true     
+
+
+t=int(sys.stdin.readline())
+for _in range(t):
+n,m=map(int,sys.stdin.readline().split())
+a=list(map(int,sys.stdin.readline().split()))
+b=list(map(int,sys.stdin.readline().split()))
+
+b_val=b[0]
+if (cansort(n, a, b_val)) {
+            cout << "YES\n";
+        } else {
+            cout << "NO\n";
+        }

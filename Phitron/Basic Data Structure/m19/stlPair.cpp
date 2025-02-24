@@ -8,10 +8,12 @@ typedef long long ll;
 int32_t main()
 {
     faster;
-    // pair<string,int>p;
-    // p={"hello",69};
-    // cout<<p.first<<endl;
-    // cout<<p.second<<endl;
+     pair<string,int>p;
+     p={"hello",69};
+     cout<<p.first<<endl;
+     cout<<p.second<<endl;
+
+     cout<<nl;
     int n;
     cin>>n;
 

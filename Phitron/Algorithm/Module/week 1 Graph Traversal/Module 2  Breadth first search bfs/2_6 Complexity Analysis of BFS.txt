@@ -1,0 +1,27 @@
+void bfs(int src)
+{
+    queue<int>q;
+    q.push(src);
+    vis[src]=true;
+
+    while(!q.empty()){   depends on nodes so O(n)
+        //ber kre ana
+        int par=q.front();
+        q.pop();
+        //oi node niye kaaj
+        cout<<par<<" ";
+        //children push
+        for (auto child : adj_list[par]){  depends on edge so O(E)
+            if(vis[child]==false){
+                q.push(child);
+                vis[child]=true;
+            }
+        }
+    }
+}
+
+
+as the loops are not nested because of condition so it will not be O(n*E)
+so the final complexity will be O(n+e)
+
+and the space complexity of the queue will be O(n)

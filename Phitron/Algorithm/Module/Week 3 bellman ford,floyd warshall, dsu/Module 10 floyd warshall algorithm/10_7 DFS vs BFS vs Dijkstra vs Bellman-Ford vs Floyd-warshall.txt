@@ -1,0 +1,13 @@
+DFS- (O+E)-> Traverse
+
+shortest path-> bfs,dijsktra,bellmenford,floyd warshall
+
+single source-> bfs, dijsktra,bellmenford
+multiple source ->floyd warshall O(V^3)
+
+without weighted->bfs O(V+E)
+weighted-> dijsktra  O(ELogV)
+
+
+Negative weighted cycle ->bellmenford O(VE)
+without Negative weighted cycle-> dijsktra
