@@ -1,0 +1,4 @@
+dp has 2 approach
+
+(i) top down->recursion
+(ii) bottom up -> loop

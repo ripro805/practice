@@ -1,0 +1,3 @@
+if two set has no common element. 
+they have a common element who is leader
+and we find a union between them
