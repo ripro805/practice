@@ -1,0 +1,5 @@
+all same as vector 
+but in deque we can access and dlt the first element in O(1) by using push_front and pop_front
+but the drawbacks is the huge memory
+
+deque<in>dq;

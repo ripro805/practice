@@ -1,0 +1,15 @@
+as a container
+key,value pair
+unique value
+sorted
+
+map<int,int>mp
+mp.insert({10,20})   or  mp[10]=20
+cout<<mp[10]     the output 20
+
+
+for(auto [key,value]:mp)
+ cout<<key<<" "<<value
+
+ 
+if mp[10]=12  then mp[10] will be 12
