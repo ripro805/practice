@@ -1,3 +1,0 @@
-Invalid index
-20 10 30 100 200 
-tail--->200

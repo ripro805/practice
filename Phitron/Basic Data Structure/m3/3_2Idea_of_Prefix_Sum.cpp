@@ -1,5 +1,0 @@
-/*
-prefix sum holo shuru theke
-j shongkha deua thkbe shei shongkha 
-porjnto shonkhar jogfol
-*/

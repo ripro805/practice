@@ -1,1 +1,0 @@
-the duplicate value doesn't insert ..it counts with the same value

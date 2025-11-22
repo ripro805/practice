@@ -1,2 +1,0 @@
-maxheap=give the large value always ...root must be larger  than child
-minheap=give the small value always ...root must be smaller  than child

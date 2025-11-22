@@ -1,2 +1,0 @@
-https://lightoj.com/problem/guilty-prince [DFS]
-https://lightoj.com/problem/commandos [BFS]

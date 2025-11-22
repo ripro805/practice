@@ -1,2 +1,0 @@
-the all previous level of last level must be filled..and the last level will be filled from leftside 
-height,h=logn
